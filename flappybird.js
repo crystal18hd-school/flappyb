@@ -132,9 +132,28 @@ context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
 context.fillStyle = "red";
 context.font = "bold 40px sans-serif";
 context.fillText("GAME OVER", 55, boardHeight / 2);
+
 context.fillStyle = "white";
 context.font = "20px sans-serif";
 context.fillText("Press Space to Restart", 75, (boardHeight / 2) + 40);
+
+context.fillStyle = "black";
+context.font = "18px sans-serif";
+context.fillText("Thank you for playing this school demo", 15, (boardHeight / 2) + 80);
+
+context.fillStyle = "blue";
+context.font = "18px sans-serif";
+context.fillText("Thank you for playing this school demo", 16, (boardHeight / 2) + 81);
+
+context.fillStyle = "black";
+context.font = "18px sans-serif";
+context.fillText("By Sachi Devnani and Crystal Hooi ", 30, (boardHeight / 2) + 110);
+
+context.fillStyle = "blue";
+context.font = "18px sans-serif";
+context.fillText("By Sachi Devnani and Crystal Hooi ", 31, (boardHeight / 2) + 111);
+
+
 
 // Final Score Display
 context.font = "bold 45px sans-serif";
